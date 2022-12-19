@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">AliShahheidar</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#Honors" class="navbar__links" id="about-page">Honors</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#Skills" class="navbar__links" id="services-page">Skills</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="signup">Join Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container"></div>
+        <h1 class="hero__heading">Academic Resume<span>Ali Shahhiedar</span></h1>
+        <p class="hero__description">What do you want to know about me?</p>
+        <h2 class="hero__whatTodo">My name is Ali Shahheidar.
+            I was born in March 1381 in Ahvaz. Of course,
+            we came to Tehran with my family when I was six months old.
+            I had a good childhood. Since I was 7 years old, I became very interested in football and played in teams like
+            Naft Tehran for several years. A few years later,
+            by studying mathematics, I was able to enter the field of mechanical engineering at Sharif University of Technology.
+            Of course, due to my interest in computer science, I changed my major to
+            computer engineering in this university.</h2>
+    </div>
+
+    <!-- Honors Section -->
+    <div class="main" id="Honors">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+            </div>
+            <div class="main__content">
+                <h1>What did I do?</h1>
+                <h2>Let's take a look at my honors and achievements</h2>
+                <p>If I want to explain to you from the beginning my entry into the real world,
+                    I can divide my honors into several categories, which include sports-educational
+                    and artistic ones. There is a lot to say in the field of sports, because I am
+                    basically an athlete and I have something to say in every branch of it.
+                    I have many city and country medals in football. In volleyball, I have the championship title of Tehran. I have the championship title in ping pong in Tehran schools.
+                    In the basketball branch, I have two championship and runner-up titles in Tehran schools.
+                    In the field of art, there is a lot to say, but the most striking one is the gold medal for wood carving and inlaid work in the whole country,
+                    which I won in the seventh, eighth and ninth years of middle school.
+                    And we get to education. Honestly, I didn't study much at first and I was looking for other jobs like football. Until one day, we made a deal with one of my friends.
+                    Whoever gets a higher grade in math is better than the other,
+                    and that's when I started studying. During several years,
+                    I won the title of runner-up and third in the city and country competitions in mathematics and physics,
+                    and until
+                    now I am studying computer engineering at Sharif University.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills section -->
+    <div class="Skills" id="Skills">
+        <h1>My Skills</h1>
+        <div class="services__wrapper">
+            <div class="Skills__card">
+                <h2>Python</h2>
+                <p>I have started programming with this language (Python)
+                    for about 3 years and so far I have written 3 important
+                    projects with this language, one of which is a program
+                    that I wrote for one of my professors in the second semester of my bachelor's
+                    degree. What this program does is to confirm each person's presence in the class by entering the student number</p>
+            </div>
+            <div class="Skills__card">
+                <h2>Football</h2>
+                <p>Start playing from the seventh. At first,
+                    I was not very good, but gradually my game
+                    improved until I finally joined the school team.
+                    In the sixth grade, we were able to win the championship
+                    of Tehran schools. After that, I was able to
+                    enter professional teams such as Naft-e Tehran and became
+                    the captain of this team for about 2 years and was able to win the title of runner-up in Iran.</p>
+            </div>
+            <div class="Skills__card">
+                <h2>Olympiad</h2>
+                <p> With the encouragement of my family, I entered the Physics Olympiad.
+                    I passed the first stage and didn't continue any more,
+                    and then I entered the Mathematical Olympiad. Again, I was accepted in the first stage and did not continue. I
+                    was very interested in participating in the Computer Olympiad,
+                    but time was lost, and I could not participate.</p>
+            </div>
+            <div class="Skills__card">
+                <h2>Web Designing</h2>
+                <p> have been working with HTML/CSS and JS for about six months,
+                    and I am trying to make myself stronger than I am in web design.
+                    In the field of programming, I like these languages more than others because I can see the results of my work
+                    live and enjoy my work. I have worked with Python, C++, C,
+                    JAVA, GO, but none of them give me as much pleasure as HTML/CSS and JS.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- features section -->
+    <div class="main" id="sign-up">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Join Me</h1>
+                <h2>Tell me your comments and suggestions</h2>
+
+                <html lang="">
+
+                <head>
+                    <title>Contact Form</title>
+                </head>
+
+                <body>
+                <?php include 'index.php';?>
+                    <section class="contact" id="contact-section">
+                        <p class="sub-heading">Let's connect. </p>
+                        <div class="separator"></div>
+
+                        <form method="post" action="index.php">
+                            <label>
+                                <input name="_gotcha" style="display: none" type="text">
+                            </label>
+                            <div class="contact-form">Name<label for="name"></label><input name="name" placeholder=" name" id="name" required type="text">
+                            </div>
+                            <div class="contact-form">Topic<label for="topic"></label><input name="topic" placeholder="topic" id="topic" required type="text">
+                            </div>
+                            <div class="contact-form">E-mail
+                                <label>
+                            <input name="email" required placeholder="email" />
+                        </label>
+                            </div>
+                            <label>
+                        <textarea class="message" name="message" placeholder="message" required></textarea>
+                    </label>
+                            <br/>
+                            <button class="main__btn" id="submitForm" onclick="myFunction()">
+                                    submit
+                            </button>
+                            <input type="hidden" name="referrer" id="referrer_field" />
+                            <input type="hidden" name="body" />
+                        </form>
+                    </section>
+                </body>
+
+                </html>
+            </div>
+            <div class="main__img--container">
+                <div class="main__img--card" id="card-2"><i class="fas fa-users"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Me</h2>
+                    <a href="/">What do I do?</a>
+                    <a href="/">Testimonials</a>
+                    <a href="/">Career</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Me</h2>
+                    <a href="/">Contact</a>
+                    <a href="/">Support</a>
+                    <a href="/">Destinations</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Videos</h2>
+                    <a href="/">Submit video</a>
+                    <a href="/">Ambassadors</a>
+                    <a href="/">Agency</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Social media</h2>
+                    <a href="https://www.facebook.com">Facebook</a>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                    <a href="https://stackoverflow.com">Stack Overflow</a>
+                    <a href="https://github.com/alishahheidar98/Final_Git_Project">GitHub</a>
+                    <a href="https://web.telegram.org/z/#-1739475474">Telegram</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">I hope you enjoyed</a>
+                </div>
+                <p class="website__rights">©AliShahheidar 2022. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-Facebook"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-Instagram"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-Stack Overflow"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-GitHub"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-Telegram"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
